@@ -47,5 +47,7 @@ ncontrols_30and120/all_controls
 #6e
 ncontrols_30or120 <- sum(subset(esoph, tobgp=='30+' | alcgp=='120+')$ncontrols)
 ncontrols_30or120/all_controls
+#6f
+ncases_30or120/all_cases/(ncontrols_30or120/all_controls)
 
 
